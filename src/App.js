@@ -10,11 +10,11 @@ function App() {
   return (
     <div className={`box ${ismorning?"":"isday"} `}>
       <h1 >Class 3 Assignment</h1>
-     <Hotel className="class3"/>
+     <Hotel/>
      <hr/>
      <h1>Class 4 Assingment</h1>
      
-     <Message className="class4" value={count} morning={ismorning}/>
+     <Message value={count} morning={ismorning}/>
      <button onClick={()=>{
         setIsMorning(!ismorning)
      }}>Change to {ismorning?"Night":"Morning"} </button>

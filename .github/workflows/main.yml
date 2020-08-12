@@ -39,4 +39,4 @@ jobs:
       run: npm install -g surge
     - name: Run Surge
       run: surge ./build http://bootcamp2020-class3n4.surge.sh --token ${{secrets.MY_SECRET}}
-© 2020 GitHub, Inc.
+
